@@ -1,0 +1,68 @@
+<html >
+<head>
+
+<title>Add Books</title>
+<style type="text/css">
+
+body {
+	background-color: #4D8CCE;
+}
+.style1 {
+	font-size: 24px;
+	font-weight: bold;
+}
+</style>
+</head>
+<body><div class="banner">
+		<div class="navbar">
+			<ul>
+
+				<li><a href="adminlogin.html">Admin Login</a></li>
+				<li><a href="customerlogin.html">Customer Login</a></li>
+				
+		</div>
+<form>
+  <table width="550" border="1" align="center">
+    <tr>
+      <td width="170"><div align="right">Enter  Book Name </div></td>
+      <td width="364"><input type="text" name="productname" /></td>
+    </tr>
+    <tr>
+      <td><div align="right">Enter Book Cost </div></td>
+      <td><input type="text" name="productprice" /></td>
+    </tr>
+	 <tr>
+      <td><div align="right">Quantity</div></td>
+      <td><input type="text" name="quantity" /></td>
+    </tr>
+    <tr>
+      <td><div align="right">Add produt Image </div></td>
+      <td><input type="file" name="image" /></td>
+    </tr>
+    <tr>
+      <td><div align="right">Description</div></td>
+      <td><textarea name="desc" cols="50" rows="5" id="desc"></textarea></td>
+    </tr>
+    <tr>
+      <td height="35">Discount on purchase </td>
+      <td><select name="charity">
+        <option>0.1</option>
+        <option>0.2</option>
+        <option>0.3</option>
+        <option>0.5</option>
+        <option>0.75</option>
+        <option>1.0</option>
+      </select>
+      </td>
+    </tr>
+    
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" name="Submit" value="Add"  onclick=""/>
+      <input type="reset" name="Submit2" value="Reset" /></td>
+    </tr>
+  </table>
+  <div align="center"></div>
+</form>
+</body>
+</html>
